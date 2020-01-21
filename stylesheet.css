@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  max-width: 1400px;
+  min-height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+img {
+  height: 98px;
+  width: 130px;
+  z-index: 4;
+  position: absolute;
+}
+
+.image2 {
+  height: 98px;
+  width: 130px;
+  z-index: 3;
+  position: absolute;
+}
+
+video {
+  height: 98px;
+  width: 130px;
+  z-index: 2;
+  position: absolute;
+}
+
+.d1{background: darkgrey;}
+
+.container {
+      font-size: 40px;
+      width: 100%;
+      height: 85vh;
+      display: grid;
+      grid-template-columns: repeat(10, 130px);
+      grid-template-rows: repeat(7, 98px);
+      grid-gap: 15px;
+    }
